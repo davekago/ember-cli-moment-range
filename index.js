@@ -12,6 +12,6 @@ module.exports = {
       app = app.app;
     }
 
-    this.import(app.bowerDirectory + '/moment-range/dist/moment-range.min.js');
+    this.import(app.bowerDirectory + '/moment-range/lib/moment-range.js');
   }
 };

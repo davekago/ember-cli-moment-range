@@ -11,7 +11,5 @@ module.exports = {
     while (app.app) {
       app = app.app;
     }
-
-    this.import(app.bowerDirectory + '/moment-range/lib/moment-range.js');
   }
 };

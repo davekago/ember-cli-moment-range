@@ -3,7 +3,5 @@
 module.exports = {
   normalizeEntityName: function () {},
 
-  afterInstall: function () {
-    return this.addBowerPackageToProject('moment-range', '^3.0.3');
-  }
+  afterInstall: function () {}
 };
